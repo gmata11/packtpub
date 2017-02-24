@@ -34,7 +34,7 @@ class Client(object):
         webpage = self.get_webpage('https://www.packtpub.com/packt/offers/free-learning/')
         results = self.search_data(webpage)
         # imprimir resultats
-        print "Nom del llibre gratuit amb data(" +time.strftime("%Y-%m-%d") + ") es: " + results
+        print "Nom del llibre gratuit amb data: " +time.strftime("%Y-%m-%d %H:%M") + " es: " + results
         
 
 
